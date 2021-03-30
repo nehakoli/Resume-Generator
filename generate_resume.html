@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Resume Generator</title>
+	<link rel="stylesheet" type="text/css" href="generate_resume.css">
+	<link rel="import" href="resume.html">
+</head>
+<body style="background-color: black;">
+	<h1 class="heading"> RESUME GENERATOR <br> FOR IT ENGINEERING STUDENTS</h1>
+	<div class="personal-info box">
+		<p class="sub-heading" style="color: indigo;">PERSONAL INFO</p>
+			<textarea name="About" id="About" placeholder="Few Lines About You" style="width: 98%; margin-right: 10px;"></textarea>
+		<div class="row">
+    		<div class="column">
+				<p>
+				Full Name: 
+				<input type="text" id="Full-Name" name="Full-Name" placeholder="First Middle Last">
+				</p>
+				<p>
+					DOB: 
+					<input type="date" id="DOB" name="DOB" placeholder="DD-MM-YYYY">
+				</p>
+				<p>
+					Gender: 
+					<input type="radio" id="Male" name="gender" value="male">
+					Male
+					<input type="radio" id="Female" name="gender" value="female">
+					Female
+					<input type="radio" id="Other" name="gender" value="other">
+					Other
+				</p>
+				<p>
+					Email Address: 
+					<input type="email" id="Email-Address" name="Email-Address" placeholder="abc@gmail.com">
+				</p>
+			</div>
+			<div class="column">
+				<p>
+					LinkedIn:
+					<input type="url" id="LinkedIn" name="LinkedIn" placeholder="LinkedIn URL">
+				</p>
+				<p>
+					GitHub:
+					<input type="url" id="GitHub" name="GitHub" placeholder="GitHub URL">
+				</p>
+				<p>
+					Designation:
+					<input type="text" id="Designation" name="Designation" placeholder="eg. SY IT B.Tech Student">
+				</p>
+				<p>
+					Upload your photo:<p></p>
+					<input style="border:none;" type="file" id="Photo" name="Photo">
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="div-education box">
+		<p class="sub-heading" style="color: purple;">EDUCATION DETAILS</p>
+    	<div class="education" style="padding-left: 280px;">
+			1. Qualification: 
+			<input type="text" id="Qualification1" name="Qualification1" placeholder="10th">
+			Organization:
+			<input type="text" id="Organization1" name="Organization1" placeholder="School Name">
+			Percentage:
+			<input type="numbers" id="Percentage1" name="Percentage1" placeholder="eg. 85.01%">
+			
+			<br> 2. Qualification: 
+			<input type="text" id="Qualification2" name="Qualification2" placeholder="12th">
+			Organization:
+			<input type="text" id="Organization2" name="Organization2" placeholder="School/College Name">
+			Percentage:
+			<input type="numbers" id="Percentage2" name="Percentage2" placeholder="eg. 88.08%">
+		</div>		
+	</div>
+
+
+	<div class="div-certificates box">
+		<p class="sub-heading" style="color: darkblue;">CERTIFICATIONS</p>
+    	<div class="certificates">
+			1. Topic:
+			<input type="text" id="Topic1" name="Topic1" placeholder="Topic/Title">
+			Issued By:
+			<input type="text" id="Issued1" name="Issued1" placeholder="Organization Name">
+			Year:
+			<input type="numbers" id="Year1" name="Year1" placeholder="Issuing Year">
+			URL:
+			<input type="url" id="URL1" name="URL1" placeholder="URL of certificate">
+
+			<br> 2. Topic:
+			<input type="text" id="Topic2" name="Topic2" placeholder="Topic/Title">
+			Issued By:
+			<input type="text" id="Issued2" name="Issued2" placeholder="Organization Name">
+			Year:
+			<input type="numbers" id="Year2" name="Year2" placeholder="Issuing Year">
+			URL:
+			<input type="url" id="URL2" name="URL2" placeholder="URL of certificate">
+
+			<br> 3. Topic:
+			<input type="text" id="Topic3" name="Topic3" placeholder="Topic/Title">
+			Issued By:
+			<input type="text" id="Issued3" name="Issued3" placeholder="Organization Name">
+			Year:
+			<input type="numbers" id="Year3" name="Year3" placeholder="Issuing Year">
+			URL:
+			<input type="url" id="URL3" name="URL3" placeholder="URL of certificate">
+
+			<br> 4. Topic:
+			<input type="text" id="Topic4" name="Topic4" placeholder="Topic/Title">
+			Issued By:
+			<input type="text" id="Issued4" name="Issued4" placeholder="Organization Name">
+			Year:
+			<input type="numbers" id="Year4" name="Year4" placeholder="Issuing Year">
+			URL:
+			<input type="url" id="URL4" name="URL4" placeholder="URL of certificate">
+
+			<br> 5. Topic:
+			<input type="text" id="Topic5" name="Topic5" placeholder="Topic/Title">
+			Issued By:
+			<input type="text" id="Issued5" name="Issued5" placeholder="Organization Name">
+			Year:
+			<input type="numbers" id="Year5" name="Year5" placeholder="Issuing Year">
+			URL:
+			<input type="url" id="URL5" name="URL5" placeholder="URL of certificate">
+		</div>		
+	</div>
+
+
+	<div class="div-skills box row">
+		<div class="column" style="border-right: solid;">
+			<p class="sub-heading" style="color: indigo;">SOFT SKILLS</p>
+			<div class="row">
+    			<div class="column" style="padding-left: 50px;">
+    				<input type="checkbox" id="Communication" name="Communication" value="yes">Communication
+        			<br>
+        			<input type="checkbox" id="Teamwork" name="Teamwork" value="yes">Teamwork
+        			<br>
+        			<input type="checkbox" id="Problem-Solving" name="Problem-Solving" value="yes">Problem Solving
+        			<br>
+        			<input type="checkbox" id="Time-Management" name="Time-Management" value="yes">Time management
+        			<br>
+        			<input type="checkbox" id="Imagination-Vision" name="Imagination-Vision" value="yes">Imagination or Vison
+    			</div>
+    			<div class="column">
+    				<input type="checkbox" id="Critical-Thinking" name="Critical-Thinking" value="yes">Critical Thinking
+        			<br>
+        			<input type="checkbox" id="Decision-Making" name="Decision-Making" value="yes">Decision Making
+        			<br>
+        			<input type="checkbox" id="Organizational" name="Organizational" value="yes">Organizational
+        			<br>
+        			<input type="checkbox" id="Stress-Management" name="Stress-Management" value="yes">Stress Management
+        			<br>
+        			<input type="checkbox" id="Initiative-Work" name="Python" value="yes">Initiative Work
+    			</div>
+    			<div class="column">
+    				<input type="checkbox" id="Adaptability" name="Adaptability" value="yes">Adaptability
+        			<br>
+        			<input type="checkbox" id="Conflict-Management" name="Conflict-Management" value="yes">Conflict Management
+        			<br>
+        			<input type="checkbox" id="Leadership" name="Leadership" value="yes">Leadership
+        			<br>
+        			<input type="checkbox" id="Creativity" name="Creativity" value="yes">Creativity
+        			<br>
+        			<input type="checkbox" id="Self-Motivation" name="Self-Motivation" value="yes">Self Motivation
+    			</div>
+			</div>
+		</div>
+			<div class="column">
+				<p class="sub-heading" style="color: indigo;">TECHNICAL SKILLS</p>
+				<div class="row">
+    				<div class="column" style="padding-left: 100px;">
+    					<input type="checkbox" name="C" id="C" value="yes">C
+        				<br>
+        				<input type="checkbox" name="Cpp" id="Cpp" value="yes">C++
+        				<br>
+        				<input type="checkbox" name="Java" id="Java" value="yes">Java
+        				<br>
+        				<input type="checkbox" name="Python" id="Python" value="yes">Python
+        				<br>
+        				<input type="checkbox" name="Swift" name="Swift" value="yes">Swift
+    				</div>
+    				<div class="column">
+    					<input type="checkbox" name="Ruby" name="Ruby" value="yes">Ruby
+        				<br>
+        				<input type="checkbox" name="HTML" id="HTML" value="yes">HTML
+        				<br>
+        				<input type="checkbox" name="JavaScript" id="JavaScript" value="yes">JavaScript
+        				<br>
+        				<input type="checkbox" name="SQL" id="SQL" value="yes">SQL
+        				<br>
+        				<input type="checkbox" name="R" id="R" value="yes">R
+    				</div>
+    				<div class="column">
+    					<input type="checkbox" name="Dart" id="Dart" value="yes">Dart
+        				<br>
+        				<input type="checkbox" name="CSS" id="CSS" value="yes">CSS
+        				<br>
+        				<input type="checkbox" name="Java" id="PHP" value="yes">PHP
+        				<br>
+        				<input type="checkbox" name="Go" id="Go" value="yes">Go
+        				<br>
+        				<input type="checkbox" name="Chash" id="Chash" value="yes">C#
+    				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="div-software box">
+		<p class="sub-heading" style="color: purple;">SOFTWARE KNOWLEDGE</p>
+   		1. <input type="text" id="Software1" name="Software1">
+   		2. <input type="text" id="Software2" name="Software2">
+   		3. <input type="text" id="Software3" name="Software3">
+   		4. <input type="text" id="Software4" name="Software4">
+   		5. <input type="text" id="Software5" name="Software5">
+	</div>
+
+
+	<div class="div-language box">
+		<p class="sub-heading" style="color: darkblue;">LANGUAGES</p>
+		<div class="row">
+			<div class="column">
+				<input type="checkbox" id="Hindi" name="Hindi" value="yes">Hindi
+				<input type="checkbox" id="German" name="German" value="yes">German
+			</div>
+			<div class="column">
+				<input type="checkbox" id="English" name="English" value="yes">English
+				<input type="checkbox" id="French" name="French" value="yes">French
+			</div>
+			<div class="column">
+				<input type="checkbox" id="Marathi" name="Marathi" value="yes">Marathi
+				<input type="checkbox" id="Spanish" name="Spanish" value="yes">Spanish
+			</div>
+			<div class="column">
+				<input type="checkbox" id="Tamil" name="Tamil" value="yes">Tamil
+				<input type="checkbox" id="Japanese" name="Japanese" value="yes">Japanese
+			</div>
+			<div class="column">
+		   		<input type="checkbox" id="Malayalam" name="Malayalam" value="yes">Kashmiri
+		   		<input type="checkbox" id="Bengali" name="Bengali" value="yes">Bengali
+			</div>
+			<div class="column">
+				<input type="checkbox" id="Gujarati" name="Gujarati" value="yes">Gujarati
+   				<input type="checkbox" id="Mandarin" name="Mandarin" value="yes">Mandarin
+			</div>
+			<div class="column">
+		   		<input type="checkbox" id="Oriya" name="Oriya" value="yes">Oriya
+		   		<input type="checkbox" id="Portuguese" name="Portuguese" value="yes">Korean	
+			</div>
+			<div class="column">
+				<input type="checkbox" id="Punjabi" name="Punjabi" value="yes">Punjabi
+   				<input type="checkbox" id="Russian" name="Russian" value="yes">Russian
+			</div>
+			<div class="column">
+				<input type="checkbox" id="Assamese" name="Assamese" value="yes">Malyalam
+				<input type="checkbox" id="Italian" name="Italian" value="yes">Italian
+			</div>
+		</div>
+	</div>
+
+
+	<div class="div-interest box">
+		<p class="sub-heading" style="color: indigo;">INTEREST & HOBBIES</p>
+		<div class="row">
+    		<div class="column">
+				1. <input type="text" id="Interest1" name="Interest1">
+				<br>
+   				2. <input type="text" id="Interest2" name="Interest2">
+			</div>
+			<div class="column">
+   				3. <input type="text" id="Interest3" name="Interest3">
+   				<br>
+				4. <input type="text" id="Interest4" name="Interest4">
+			</div>
+		</div>
+	</div>
+
+
+
+	<script>
+		function resume() 
+		{
+		}
+	</script>
+
+	<button type="button" target="_blank" onclick="window.location.href='resume.html'">
+		Generate Resume
+	</button>
+
+</body>
+</html>

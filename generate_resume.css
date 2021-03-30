@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Century gothic, Agency FB, Arial, Times New Roman;
+  src: url(sansation_light.woff);
+}
+
+.heading{
+	text-align: center;
+	font-family: Agency FB;
+	font-size: 37px;
+	font-weight: solid;
+	color: #EFE5FA;
+}
+
+.sub-heading{
+	text-align: center;
+	font-family: Agency FB;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.box{
+	border-style: solid;
+	border-radius: 30px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	font-family:  Arial, Times New Roman, sans-serif;
+}
+
+.box input, textarea{
+	border-top: solid;
+	border-right: solid;
+}
+
+.row{
+	display: flex;
+}
+
+.column{
+	flex: 50%;
+}
+
+.personal-info{
+	border-color: indigo;
+	background-color: #E7E5FA;
+}
+
+.div-education{
+	border-color: purple;
+	background-color: #EFE5FA;
+}
+
+.div-education input{
+	margin-right: 70px;
+	margin-bottom: 10px;
+}
+
+.div-certificates{
+	border-color: darkblue;
+	background-color: #E5E9FA;
+}
+
+.div-certificates input{
+	margin-right: 140px;
+	margin-bottom: 10px;
+}
+
+.div-skills{
+	border-color: indigo;
+	background-color: #E7E5FA;
+	padding-top: 10px;
+}
+
+.div-software{
+	border-color: purple;
+	background-color: #E5E9FA;
+}
+
+.div-software input{
+	margin-right: 100px;
+}
+
+.div-language{
+	border-color: darkblue;
+	background-color: #E5E9FA;
+}
+
+.div-language input{
+	margin-left: 60px;
+}
+
+.div-interest{
+	border-color: indigo;
+	background-color: #E7E5FA;
+	text-align: center;
+}
+
+.div-interest input{
+	margin-bottom: 10px;
+}
+
+button{
+	margin-top: 50px;
+	margin-left: 45%;
+	padding: 10px;
+    position: absolute;
+    font-style: solid;
+    font-weight: bold;
+    font-family: Agency FB;
+    font-size: 20px;
+    color: indigo;
+    border-radius: 50px;
+    background-color: #E7E5FA;
+}
+
