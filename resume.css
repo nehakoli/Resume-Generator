@@ -1,0 +1,131 @@
+@font-face {
+  font-family: Century gothic, Agency FB, Arial Narrow, Calibri;
+  src: url(sansation_light.woff);
+}
+
+.resume{
+	width: 40%;
+	border: 2px solid white;
+	padding: 1px;
+	border-style: solid;
+	position: absolute;
+	background-color: #e6ecff;
+}
+
+.left-div{
+	width: 60%;
+	float: left;
+}
+
+.right-div{
+	width: 40%;
+	float: right;
+	color: white;
+	background-color: #0f6fc6;
+}
+
+.Left-Heading{
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #1f497d;
+	border-color: #e6ecff; 
+	border-bottom: 2px solid black;
+	font-size: 18px;
+	height: 25px;
+	text-align: left;
+
+}
+
+.Right-Heading{
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: white;
+	background-color: #1f497d; 
+	text-align: center;
+	font-size: 18px;
+	height: 25px;
+}
+
+.Left-Detail{
+	border-color: #e6ecff; 
+	font-family: Calibri;
+	font-size: 15px;
+}
+
+.Right-Detail{
+	border-color: #0f6fc6; 
+	font-family: Calibri;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+.row{
+	display: flex;
+}
+
+.column{
+	flex: 50%;
+}
+
+.name{
+	font-family: Century Gothic;
+	font-size: 22px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.designation{
+	font-family: Century Gothic;
+	font-size: 15px;
+	background-color: black;
+	color: white;
+}
+
+.photo{
+	height: 146px;
+}
+
+.about{
+	height: 100px;
+	font-size: 12px;
+}
+
+.Personal-Details{
+	height: 162px;
+	font-family: Arial Narrow;
+	font-weight: bold;
+}
+
+.Personal-Details span{
+	font-family: Calibri;
+	font-weight: normal;
+}
+
+.Educational-Details{
+	height: 120px;
+}
+
+.Interests{
+	height: 65px;
+}
+
+.Languages{
+	height: 50px;
+}
+
+.Certifications{
+	height: 110px;
+}
+
+.Personal-Skills{
+	height: 100px;
+}
+
+.Technical-Skills{
+	height: 135px;
+}
+
+.Achievements{
+	height: 100px;
+}
