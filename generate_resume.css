@@ -71,13 +71,14 @@
 	padding-top: 10px;
 }
 
-.div-software{
+.div-achievement{
 	border-color: purple;
 	background-color: #E5E9FA;
 }
 
-.div-software input{
-	margin-right: 100px;
+.div-achievement input{
+	margin-right: 50px;
+	width: 400px;
 }
 
 .div-language{
@@ -101,7 +102,6 @@
 
 button{
 	margin-top: 50px;
-	margin-left: 45%;
 	padding: 10px;
     position: absolute;
     font-style: solid;
